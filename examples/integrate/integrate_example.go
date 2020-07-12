@@ -65,7 +65,7 @@ func main() {
 	}
 	soln3 := 82787.0
 	p3 := PlotErrors(f3, soln3, -10, 10)
-	p3.Title.Text = "Integral[x^5 + 2x^4 + 3x^3 + 4x^2 + 5x + 6, -10, 10]"
+	p3.Title.Text = "Integral[2x^4 + 3x^3 + 4x^2 + 5x + 6, -10, 10]"
 	// panic("here")
 
 	// 4
